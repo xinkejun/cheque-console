@@ -34,4 +34,4 @@ Navigate to `http://localhost:4200/`. The app will automatically reload if you c
 
 To change the cheque data source, please change file \src\app\shared\in-memory-data.service.ts
 
-The "cheque amount to words" function locate in \src\app\cheques\shared\cheque.service.js
+The "cheque amount to words" function locate in \src\app\cheques\shared\cheque.service.ts
