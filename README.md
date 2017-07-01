@@ -1,27 +1,32 @@
-# MasterProject
+# Cheque Console
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.0.
+This project is for Deepend techniquie test.
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Technical points
 
-## Code scaffolding
+Angular 4 as code scaffoding.
+Typescript as programming language
+Bootstrap for css.
+No CMS in this test project.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+## How to set up the development environment
 
-## Build
+Install Node.js and npm if they are not already on your machine.
+Verify that you are running at least node 6.9.x and npm 3.x.x by running node -v and npm -v in a terminal/console window. Older versions produce errors, but newer versions are fine.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Then install the Angular CLI globally.(please wait for several minutes)
+npm install -g @angular/cli
 
-## Running unit tests
+Clone the repository from GitHub
+git clone https://github.com/xinkejun/cheque-console.git cheque-console
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Launch below command for dev server.
+cd cheque-console
+npm install (please wait for several minutes)
+npm start
 
-## Running end-to-end tests
+Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## How to check core functionalities
+To change the cheque data source, please change file \src\app\shared\in-memory-data.service.ts
+The "cheque amount to words" function locate in \src\app\cheques\shared\cheque.service.js
