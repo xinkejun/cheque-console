@@ -11,6 +11,23 @@ const routes: Routes = [
   { path: 'cheques', component: ChequeListComponent },
   { path: 'cheques/:id', component: ChequeDetailComponent },
   { path: 'about', component: AboutComponent },
+
+  // {
+  //   path: '',
+  //   component: FullLayoutComponent,
+  //   data: {
+  //     title: 'Home'
+  //   },
+  //   children: [
+  //     {
+  //       path: 'dashboard',
+  //       loadChildren: './dashboard/dashboard.module#DashboardModule'
+  //     },
+  //   ]
+  // }
+
+  // { path: '**', component: PageNotFoundComponent }
+
 ];
 
 @NgModule({
