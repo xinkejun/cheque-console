@@ -12,3 +12,4 @@ This project is for technical test only.
 ## Setup
 
 Please open solution with Visual Studio 2015 or above
+Please set ChequeInput.aspx as startup page
