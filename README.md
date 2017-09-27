@@ -1,6 +1,8 @@
 # Technical Test Project
 
-This project is for technical test only.
+This project is for technical test only.<br>
+
+Live demo: [http://xinkejun.azurewebsites.net/chequeinput.aspx](http://xinkejun.azurewebsites.net/chequeinput.aspx)
 
 ## About the solution
 
@@ -11,5 +13,5 @@ This project is for technical test only.
 
 ## Setup
 
-Please open solution with Visual Studio 2015 or above
+Please open solution with Visual Studio 2015 or above<br>
 Please set ChequeInput.aspx as startup page
